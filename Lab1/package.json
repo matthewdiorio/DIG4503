@@ -6,16 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/matthewdiorio/DIG4503.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/matthewdiorio/DIG4503/issues"
-  },
-  "homepage": "https://github.com/matthewdiorio/DIG4503#readme",
   "dependencies": {
     "chalk": "^4.1.0"
   }
