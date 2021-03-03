@@ -1,0 +1,41 @@
+/* Navigation Styles*/
+.nav-logo{
+    width:100px;
+}
+.nav-btn-group{
+    margin-top: 10px;
+   
+}
+.nav-btn-group button{
+    margin-top: 10px;
+}
+ .nav-link-group {
+    margin-top: 55px;
+    
+}
+@media screen and (max-width:549px){
+    .nav-link-group{
+
+        margin-left: 8%;
+    }
+}
+@media screen and (min-width:992px){
+
+    .nav-link-group{
+
+        margin-left: 16%;
+    }
+     .nav-btn-group {
+        margin-left: 16%;
+    }
+}
+.nav-link {
+    margin:auto;
+}
+.nav-container{
+    margin-left: 10%;
+}
+.nav-input{
+    width:300px;
+}
+  
