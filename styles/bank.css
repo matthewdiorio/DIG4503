@@ -1,0 +1,27 @@
+.search .search-section{
+
+    min-height:350px;
+
+}
+.search-box{
+    padding:12px;
+    height: 75px;
+    width: 500px;
+
+}
+.search-btn{
+    padding:8px;
+    width: 200px;
+    height: 50px;
+}
+.result_card {
+    min-height:300px;
+    width: 100%;
+}
+.result_image{
+    width:100%;
+    height:250px;
+}
+.result_btn{
+    width:200px;
+}
