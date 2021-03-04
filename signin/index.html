@@ -7,9 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/w3.css">
     <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/signin.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.css">
     <link rel="shortcut icon" href="../assets/logo/Favicon.png" type="image/x-icon">
-    <title>About FoodEx</title>
+    <title>Sign into FoodEx</title>
 </head>
 
 <body>
@@ -25,30 +26,39 @@
                                 About</a>
                             <a class="link nav-link w3-bar-item w3-cell w3-cell-bottom w3-mobile"
                                 href="../banks/">Banks</a>
-
+                            
                         </div>
                 <div class="w3-bar-item  nav-btn-group w3-half ">
                     <div class="w3-row">
                         <div class="input-icons">
                             <input class="nav-input  w3-input input-field" placeholder="Search here" type="text">
                         </div>
-                        <button class="w3-bar-item w3-btn w3-mobile btn btn-primary">Sign Up</button>
-                        <button class="w3-bar-item w3-btn w3-mobile btn btn-default">Sign In</button>
-
+                        <div class="w3-row">
+                            <a href="../../signin/"><button  class="w3-bar-item w3-btn w3-mobile "> Sign In</button></a>
+                        </div>
                     </div>
                 </div>
             </div>
     </nav>
-    <main class="dashboard">
-        <h1 class="w3-center">Brought to you by</h1>
-        <ul class="w3-ul w3-auto w3-center">
-            <li>Nikhil Desai</li>
-            <li>Matthew Diorio</li>
-            <li>Elizabeth Sarduy </li>
-            <li>Yjang Wynter</li>
+    <section class="menu">
+        <div class="w3-row w3-center">
+            <div class="w3-auto ">
+                <h2 class="w3-section">Are you a Patron or Bank?</h2>
+                <a class="link" href="../dashboard/patron/"><div class="w3-half   w3-mobile w3-card user-box">
+                    <img class="w3-image w3-margin" src="https://via.placeholder.com/500x250" alt="" srcset="">
+                    <h3>Patron </h3>
 
-        </ul>
-    </main>
+                </div>
+            </a>
+            <a class="link" href="../dashboard/bank/">
+                <div class="w3-half w3-mobile w3-card user-box">
+                    <img class="w3-image w3-margin" src="https://via.placeholder.com/500x250" alt="" srcset="">
+                    <h3>Food Bank</h3>
+                </div>
+            </div>
+            </a>
+        </div>
+    </section>
     <footer>
         <div class="w3-margin-top w3-row w3-border  w3-bar">
             <div class="w3-auto ">
@@ -62,9 +72,7 @@
                     <li class="w3-mobile w3-auto w3-bar-item">
                         <a class="link" href="../banks/">Banks</a>
                     </li>
-                    <li class="w3-mobile w3-auto w3-bar-item">
-                        <a class="link" href="../contact/">Contact</a>
-                    </li>
+                   
                     <li class="w3-mobile w3-auto w3-bar-item">
                         <a class="link" href="#">Terms & Conditions</a>
                     </li>
