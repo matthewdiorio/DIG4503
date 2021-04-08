@@ -1,8 +1,8 @@
-<?php include 'components/head.php'; ?>
+<?php include 'components/Head.php'; ?>
 <body>
-<?php include './components/topnav.php'; ?>
+<?php include './components/MainNavigation.php'; ?>
 
 
 
 </body>
-<?php include "./components/footer.php";?>
+<?php include "./components/Footer.php";?>

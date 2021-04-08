@@ -2,8 +2,8 @@
 <body>
 
 <?php 
-include 'components/head.php';
-include './components/topnav.php';
+include './components/Head.php';
+include './components/MainNavigation.php';
 ?>
 
     <section class="intro">
@@ -36,7 +36,7 @@ include './components/topnav.php';
         </div>
     </section>
 
-    <?php include "./components/footer.php";?>
+    <?php include "./components/Footer.php";?>
 </body>
 
 </html>

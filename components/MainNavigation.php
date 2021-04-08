@@ -15,9 +15,9 @@
                             <input class="nav-input w3-input input-field" placeholder="&#x1F50E;" type="text">
                         </div>
                         <div class="w3-row-padding">
-                            <a href="./signin.php" class="w3-bar-item">
-                                <button class="w3-btn w3-round-xxlarge w3-mobile w3-light-blue w3-hover-red">Sign In</button></a>
-                            <a href="./signup.php" class="w3-bar-item">
+                            <a href="./login" class="w3-bar-item">
+                                <button class="w3-btn w3-round-xxlarge w3-mobile w3-light-blue w3-hover-red">Log In</button></a>
+                            <a href="./signup" class="w3-bar-item">
                                 <button class="w3-btn w3-round-xxlarge w3-mobile w3-light-blue w3-hover-red">Sign Up</button></a>
                         </div>
                     </div>

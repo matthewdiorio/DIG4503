@@ -39,6 +39,6 @@ function check_login($connection)
         }
 
     }
-    header("Location: signin.php");
+    header("Location: login.php");
     die;
 }
