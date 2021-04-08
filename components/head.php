@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.1.1/css/all.css">
     <link rel="stylesheet" href="./styles/w3.css">
     <link rel="stylesheet" href="./styles/styles.css">
+    <?php
+        $pageName = $_SERVER['PHP_SELF'];
+        echo $pageName;
+        if($pageName == '/www/foodEx/application.php'){
+            echo ' <link rel="stylesheet" href="./styles/application.css">';
+        }
+    ?>
     <link rel="shortcut icon" href="./assets/logo/Favicon.png" type="image/x-icon">
     <title>FoodEx</title>
 </head>
