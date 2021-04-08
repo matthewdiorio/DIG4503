@@ -22,4 +22,3 @@
     </section>
 <?php include "./components/Footer.php";?>
 
-<?php include "./components/Footer.php";?>
