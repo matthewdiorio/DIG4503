@@ -1,5 +1,5 @@
 <?php 
-define('DB_NAME', 'login');
+define('DB_NAME', 'foodEx');
 define('DB_USER', 'root');
 define('DB_PASS', 'root');
 define('DB_HOST', 'localhost');

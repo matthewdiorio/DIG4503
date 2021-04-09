@@ -16,6 +16,6 @@ switch($pageName){
 ?>
 <div class="form_base w3-section w3-card-2 w3-auto w3-round-xxlarge">
     <form class="w3-form form_input_group w3-section w3-mobile w3-round-xlarge "
-     action="<?php echo $action_page ?>">
+     action="<?php echo $action_page ?>" method="post">
         
     <div class="form_input w3-auto  w3-section w3-padding">

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,8 +22,10 @@
                     <img class="w3-image nav-logo" src="../assets/logo/FullLockup_forWhiteBG.png"
                         alt="FoodEx Logo Home icon"></a>
                 <div class=" w3-bar-item nav-group w3-stretch nav-link-group w3-content w3-quarter">
-                    <a class="nav-link  w3-bar-item w3-button w3-cell  w3-cell-bottom  w3-mobile" href="./about">Home</a>
-                    <a class="nav-link  w3-bar-item w3-button w3-cell  w3-cell-bottom  w3-mobile" href="./about">About Us</a>
+                    <a class="nav-link  w3-bar-item w3-button w3-cell  w3-cell-bottom  w3-mobile"
+                        href="./about">Home</a>
+                    <a class="nav-link  w3-bar-item w3-button w3-cell  w3-cell-bottom  w3-mobile" href="./about">About
+                        Us</a>
                     <a class="nav-link w3-bar-item w3-button w3-cell w3-cell-bottom w3-mobile" href="./banks">Banks</a>
                 </div>
                 <div class="w3-bar-item nav-btn-group w3-half">
@@ -32,9 +35,11 @@
                         </div>
                         <div class="w3-row-padding">
                             <a href="../../signin/" class="w3-bar-item">
-                                <button class="w3-btn w3-round-xxlarge w3-mobile w3-light-blue w3-hover-red">Sign In</button></a>
+                                <button class="w3-btn w3-round-xxlarge w3-mobile w3-light-blue w3-hover-red">Sign
+                                    In</button></a>
                             <a href="../../signup/" class="w3-bar-item">
-                                <button class="w3-btn w3-round-xxlarge w3-mobile w3-light-blue w3-hover-red">Sign Up</button></a>
+                                <button class="w3-btn w3-round-xxlarge w3-mobile w3-light-blue w3-hover-red">Sign
+                                    Up</button></a>
                         </div>
                     </div>
                 </div>
@@ -60,8 +65,10 @@
     </section>
     <section class=" w3-section search_results ">
         <!-- Add a dynamic generation of results either PHP or JS-->
-        <div class=" w3-bar-block w3-auto w3-center w3-mobile w3-container w3-section ">
-            <div class=" result_card w3-mobile w3-card w3-bottombar w3-section w3-bar-item ">
+        <div class=" w3-bar-block w3-auto w3-center w3-mobile w3-container w3-section " id="foodbanks">
+
+
+            <!--<div class=" result_card w3-mobile w3-card w3-bottombar w3-section w3-bar-item ">
                 <div class=" w3-mobile w3-row ">
                     <div class=" w3-half ">
                         <img src=" https://via.placeholder.com/500x250" alt=""
@@ -70,11 +77,14 @@
                 <div class="w3-half">
                     <h3 class="w3-left w3-margin-left">Islamic Society of Central Florida (ISCF) </h3>
                     <br>
-                    <p class="w3-padding-24 w3-margin w3-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat arcu, commodo eu lorem a,
-                        dapibus consequat diam. Nam ut congue tellus. Cras et auctor turpis. Nulla ut egestas felis. Nullam
+                    <p class="w3-padding-24 w3-margin w3-justify">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Praesent erat arcu, commodo eu lorem a,
+                        dapibus consequat diam. Nam ut congue tellus. Cras et auctor turpis. Nulla ut egestas felis.
+                        Nullam
                         convallis lectus sed est ornare lacinia. Etiam condimentum dapibus pharetra. Suspendisse varius
-                        posuere metus sit amet dapibus.  </p>
-                        <a href="#" class="result_btn w3-button w3-margin w3-border w3-padding-16 w3-round">Learn More</a>                    </div>
+                        posuere metus sit amet dapibus. </p>
+                    <a href="#" class="result_btn w3-button w3-margin w3-border w3-padding-16 w3-round">Learn More</a>
+                </div>
             </div>
         </div>
         <div class="result_card w3-mobile w3-card w3-bottombar w3-section w3-bar-item w3-row w3-padding">
@@ -85,14 +95,15 @@
             <div class="w3-half">
                 <h3 class="w3-left w3-margin-left">Knights Helping Knights Pantry</h3>
                 <br>
-                <p class="w3-padding-24 w3-margin w3-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent erat arcu, commodo eu lorem a,
+                <p class="w3-padding-24 w3-margin w3-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent erat arcu, commodo eu lorem a,
                     dapibus consequat diam. Nam ut congue tellus. Cras et auctor turpis. Nulla ut egestas felis. Nullam
                     convallis lectus sed est ornare lacinia. Etiam condimentum dapibus pharetra. Suspendisse varius
-                    posuere metus sit amet dapibus.  </p>
-                    <a href="#" class="result_btn w3-button w3-margin w3-border w3-padding-16 w3-round">Learn More</a>
+                    posuere metus sit amet dapibus. </p>
+                <a href="#" class="result_btn w3-button w3-margin w3-border w3-padding-16 w3-round">Learn More</a>
             </div>
         </div>
-        </div>
+        </div>-->
         </div>
     </section>
     <footer>
@@ -118,6 +129,8 @@
             </div>
         </div>
     </footer>
+    <script src="../scripts/foodbank.js"></script>
+
 </body>
 
 </html>
