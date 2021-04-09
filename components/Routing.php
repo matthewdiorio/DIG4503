@@ -9,6 +9,7 @@
          break;
      case $baseURI.'signup.php':
          echo ' <link rel="stylesheet" href="./styles/signup.css">';
+         echo ' <link rel="stylesheet" href="./styles/form.css">';
          echo '<title>Sign Up</title>';
          break;
      case  $baseURI.'login.php':
@@ -24,10 +25,15 @@
          echo ' <link rel="stylesheet" href="./styles/search.css">';
          echo '<title>Search Banks</title>';
          break;    
-     case  $baseURI.'insert.php':
-         echo ' <link rel="stylesheet" href="./styles"/>';
-         echo '<title>Insert Title</title>';
-         break;    
+     case  $baseURI.'banks.php':
+        echo "Hi";
+         echo ' <link rel="stylesheet" href="./styles/bank.css">';
+         echo '<title>Banks/title>';
+         break;  
+    case  $baseURI.'insert.php':
+        echo ' <link rel="stylesheet" href="./styles"/>';
+        echo '<title>Insert Title</title>';
+        break;           
      default: 
          echo '<title>FoodEx</title>';
          break;

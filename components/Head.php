@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="./styles/styles.css">    
     <link rel="shortcut icon" href="./assets/logo/Favicon.png" type="image/x-icon">
     <?php
-        include './components/Routing.php'
+        include './components/Routing.php';
+        echo "yo";
     ?>
     
 
 </head>
+<body>
