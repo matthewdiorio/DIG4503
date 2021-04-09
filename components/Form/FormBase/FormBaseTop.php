@@ -1,6 +1,6 @@
 <?php 
 # routes
-$action_page = '';
+$action_page = 'dashboard';//return to error.php
 $submit_text = 'Error';
 $options_link = 'Error';
 $options_text ='Error';
@@ -8,7 +8,7 @@ $options_remember = false;
 $formName = 'Error';
 switch($pageName){
     case $baseURI.'login.php':
-        $action_page = $baseURI.'private/signin.php';
+        #$action_page = $baseURI.'private/signin.php';
         $submit_text = 'Log In';
         $options_link = 'private/account_reset.php';
         $options_text ='FORGOT PASSWORD';
@@ -16,7 +16,7 @@ switch($pageName){
         $formName = 'Signup';
         break;
     case $baseURI.'signup.php':
-        $action_page = $baseURI.'private/signup.php';
+        #$action_page = $baseURI.'private/signup.php';
         $submit_text = 'Sign Up';
         $options_link = 'privacy.php';
         $options_text ='Privacy Policy';

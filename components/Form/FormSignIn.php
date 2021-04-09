@@ -1,4 +1,4 @@
-<?php include 'FormBaseTop.php'; ?>
+<?php include 'FormBase/FormBaseTop.php'; ?>
 <div class="w3-mobile w3-margin">
     <a class="w3-right w3-margin  w3-btn w3-blue 
             w3-text-white w3-auto w3-round-large w3-large
@@ -19,4 +19,4 @@ required>
     w3-margin w3-input  w3-round" 
 required>
 
-<?php include 'FormBaseBottom.php'; ?>
+<?php include 'FormBase/FormBaseBottom.php'; ?>
