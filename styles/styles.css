@@ -40,7 +40,7 @@
     width:300px;
 }
 
-/*Genereal*/
+/*General*/
 .link{ 
     text-decoration: none;
     
@@ -117,4 +117,22 @@
     height:420px;
     align-items: center;
     justify-content: center;
+}
+/*Logo Rules*/
+.logo-container{
+    display: flex;
+}
+.logo-left{
+    justify-content: flex-start;
+}
+.logo-right{
+    justify-content: flex-end;
+}
+.logo-center{
+    justify-content: center;
+
+}
+.logo-medium{
+    width:10rem;
+    height:10rem;
 }
