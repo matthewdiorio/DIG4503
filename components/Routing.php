@@ -24,11 +24,14 @@
      case  $baseURI.'search.php':
          echo ' <link rel="stylesheet" href="./styles/search.css">';
          echo '<title>Search Banks</title>';
-         break;    
+         break; 
+    case  $baseURI.'about.php':
+        echo ' <link rel="stylesheet" href="./styles/search.css">';
+        echo '<title>Search Banks</title>';
+        break;     
      case  $baseURI.'banks.php':
-        echo "Hi";
          echo ' <link rel="stylesheet" href="./styles/bank.css">';
-         echo '<title>Banks/title>';
+         echo '<title>Banks</title>';
          break;  
     case  $baseURI.'insert.php':
         echo ' <link rel="stylesheet" href="./styles"/>';
