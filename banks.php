@@ -23,7 +23,7 @@
             <div class=" result_card w3-mobile w3-card w3-bottombar w3-section w3-bar-item ">
                 <div class=" w3-mobile w3-row ">
                     <div class=" w3-half ">
-                        <img src=" https://via.placeholder.com/500x250" alt=""
+                        <img src=" https://iscf.org/wp-content/uploads/2017/04/ISCF-Logo-Hoz-768x269.png" alt=""
                     class="w3-image w3-section result_image w3-mobile">
                 </div>
                 <div class="w3-half">
@@ -38,7 +38,7 @@
         </div>
         <div class="result_card w3-mobile w3-card w3-bottombar w3-section w3-bar-item w3-row w3-padding">
             <div class="w3-half ">
-                <img src="https://via.placeholder.com/500x250" alt=""
+                <img src="https://pbs.twimg.com/profile_images/1510198702/Logo_2.png" alt=""
                     class="w3-image w3-section result_image w3-mobile">
             </div>
             <div class="w3-half">

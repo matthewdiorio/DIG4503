@@ -19,8 +19,8 @@ include './components/MainNavigation.php';
                 </div>
                 <button class="w3-btn w3-round-large w3-red w3-text-white">Read</button>
             </div>
-            <img src="https://via.placeholder.com/1920x600" class="w3-image w3-stretch" alt="" srcset="">
-        </div>
+            <img src="./assets/images/hero_main.jpg" class="hero_image w3-image w3-stretch" alt="" srcset="">
+        </img>
     </section>
 
     <section class="squares w3-center w3-padding">
@@ -31,9 +31,9 @@ include './components/MainNavigation.php';
         </form>
         <div class="w3-row w3-auto w3-light-blue">
             <h2 class="w3-text-white">Community Support</h2>
-            <div class="square w3-mobile w3-grey w3-border w3-auto w3-third"></div>
-            <div class="square w3-mobile w3-grey w3-border w3-third"></div>
-            <div class="square w3-mobile w3-grey w3-border w3-third"></div>
+            <img src="./assets/images/box-1.jpg" class="square w3-mobile w3-white w3-border w3-auto w3-third"/>
+            <img src="./assets/images/box-2.jpg" class="square w3-mobile w3-white w3-border w3-third"/>
+            <img src="./assets/images/box-3.jpg" class="square w3-mobile w3-white w3-border w3-third"/>
         </div>
     </section>
 
