@@ -1,6 +1,5 @@
 foodbanks = document.querySelector("#foodbanks");
 
-
 window.onload = function () {
     let xhr = new XMLHttpRequest();
     xhr.open("GET", "../private/foodbanks.php", true);

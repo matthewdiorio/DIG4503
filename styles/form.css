@@ -1,3 +1,6 @@
+main{
+    min-height: 80vh;
+}
 .form_base{
     
     background: #221F20 0% 0% no-repeat padding-box;
@@ -24,25 +27,34 @@
     justify-content: center;
 }
 .form_button{
-    align-items: center;
-    justify-content: center;
-    background: #DF6565 0% 0% no-repeat padding-box;
+    background-color: #DF6565;
+    width:90%;
 }
-@media screen and (max-width:1199px){
+@media screen and (max-width:1249px){
     .form_base{
 
-    width:50vw;
+    width:40vw;
     }
 }
-@media screen and (max-width:789px){
+@media screen and (max-width:949px){
+    .form_base{
+
+    width:55vw;
+    }
+}
+@media screen and (max-width:799px){
     .form_base{
 
     width:70vw;
     }
 }
-@media screen and (max-width:489px){
+@media screen and (max-width:499px){
+    .form_input{
+        width: 80%;
+        margin:0;
+    }
     .form_base{
 
-    width:90vw;
+    width:85vw;
     }
 }

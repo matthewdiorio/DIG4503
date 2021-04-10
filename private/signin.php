@@ -11,17 +11,16 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_SESSION['token']) && $_SESSI
         $submit_text = "Please enter a valid email";
     }
 
-    $password = esc($_POST['password']);
-    if ($Error == "") {
-        $arr['password'] = "$password";
-        $arr['email'] = $email;
 
-        $query = "SELECT * FROM users WHERE email = :email && password = :password limit 1";
+    if ($Error == "") {
+
+
+        $query = "SELECT * FROM users WHERE email = ? limit 1";
         $stm = $connection->prepare($query);
-        $check = $stm->execute($arr);
+        $check = $stm->execute([$email]);
         if ($check) {
             $data = $stm->fetchAll(PDO::FETCH_OBJ);
-                if(is_array($data) && count($data)>0){
+                if(is_array($data) && count($data)>0 && password_verify($_POST['password'], $data[0]->password)){
                     $data = $data[0];
                     $_SESSION['url_address'] = $data->url_address;
                     header("Location: index.php");

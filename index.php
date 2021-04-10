@@ -1,8 +1,9 @@
-
+<?php 
+include './components/Head.php';
+?>
 <body>
 
 <?php 
-include './components/Head.php';
 include './components/MainNavigation.php';
 ?>
 
@@ -24,10 +25,10 @@ include './components/MainNavigation.php';
 
     <section class="squares w3-center w3-padding">
         <h2>Search for a pantry near you</h2>
-        <div>
-            <input placeholder="&#x1F50E;"></input>
-            <button class="w3-btn w3-round-xlarge w3-red w3-text-white">Go</button>
-        </div>
+        <form name="bankSearch" method="POST" action="banks">
+            <input name="bank_input" id="search_bank" placeholder="&#x1F50E;"></input>
+            <button type="submit" class="w3-btn w3-round-xlarge w3-red w3-text-white">Go</button>
+        </form>
         <div class="w3-row w3-auto w3-light-blue">
             <h2 class="w3-text-white">Community Support</h2>
             <div class="square w3-mobile w3-grey w3-border w3-auto w3-third"></div>
