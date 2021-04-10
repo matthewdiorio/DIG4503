@@ -13,7 +13,7 @@
                     <button
                         class="w3-margin-top w3-animate-left search-btn  w3-mobile w3-large w3-white w3-btn w3-round">Search</button>
                 </div>
-                <div class="w3-quarter w3-bar-item""></div>
+                <div class="w3-quarter w3-bar-item"></div>
             </div>
         </div>
     </section>
