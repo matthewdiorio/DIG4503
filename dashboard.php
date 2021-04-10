@@ -140,17 +140,10 @@
         </div>
 
     </div>
-    <div class="w3-row w3-auto profile profile-user w3-mobile w3-center">
-        <div class="w3-half w3-auto w3-mobile w3-margin w3-padding w3-light-grey w3-round w3-border  w3-center">Edit Profile</div>
-       
-
-    </div>
 
 </main>
         <?php
     }
-    echo "Must only be accessible after login/signin.
-    <br> Use session cookes.";
 ?>
 
 <?php include "./components/Footer.php";?>
