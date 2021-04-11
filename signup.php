@@ -13,7 +13,7 @@ include 'components/Head.php'; ?>
         <div class="logo-container logo-center">
             <img class="logo-medium " src="./assets/logo/Standard.png" alt="" srcset="">
         </div>
-        <?php include './components/FormSignUp.php'?>
+        <?php include './components/Form/FormSignUp.php'?>
     </div>
 </main>
 <?php include "./components/Footer.php";?>

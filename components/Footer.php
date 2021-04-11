@@ -1,5 +1,5 @@
-<footer>
-        <div class="w3-margin-top w3-row w3-border  w3-bar">
+<footer class="w3-padding ">
+        <div class="w3-margin-top w3-row w3-round-xlarge w3-bar">
             <div class="w3-auto ">
                 <ul class="w3-ul w3-mobile ">
                     <li class="w3-mobile w3-auto w3-bar-item">

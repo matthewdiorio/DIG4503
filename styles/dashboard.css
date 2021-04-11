@@ -1,0 +1,43 @@
+.applications{
+        background-image: url('../assets/images/review_image.jpg');
+        max-width:40vw;
+        min-height: 300px;
+        background-size: cover;
+        background-position: left;
+}
+.appointment{
+    background-image: url('../assets/images/knightspantry_pic.jpg');
+}
+
+.app-div{
+    background-color: #221F20;
+    color: #EBEBEB;
+    margin:0;
+    min-height: inherit;
+    min-width: 60%;
+}
+@media screen and (max-width:549px){
+    .applications{
+        max-width:100%;
+    }
+    .app-div{
+        background-color: #221F20;
+        color: #EBEBEB;
+        margin:0;
+        min-height: inherit;
+        min-width: 100%;
+    }
+}
+.profile{
+    text-decoration: none;
+}
+.profile strong{
+    font-size: large;
+}
+.avatar{
+    width:50px;
+}
+.arren{
+    background-image: url('../assets/images/arren.png');
+
+}
