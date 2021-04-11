@@ -14,7 +14,7 @@
     color: #EBEBEB;
     margin:0;
     min-height: inherit;
-    min-width: 50%;
+    min-width: 60%;
 }
 @media screen and (max-width:549px){
     .applications{
@@ -27,4 +27,17 @@
         min-height: inherit;
         min-width: 100%;
     }
+}
+.profile{
+    text-decoration: none;
+}
+.profile strong{
+    font-size: large;
+}
+.avatar{
+    width:50px;
+}
+.arren{
+    background-image: url('../assets/images/arren.png');
+
 }

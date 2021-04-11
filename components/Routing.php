@@ -1,6 +1,7 @@
 <?php
  $baseURI = '/www/foodex/';
  $pageName = $_SERVER['PHP_SELF'];
+ $loggedIn = false;
  echo $pageName;
  switch (strtolower($pageName)){
      case $baseURI.'application.php':
@@ -20,6 +21,7 @@
      case  $baseURI.'dashboard.php':
          echo ' <link rel="stylesheet" href="./styles/dashboard.css">';
          echo '<title>Dashboard</title>';
+         $loggedIn = true;
          break;    
      case  $baseURI.'search.php':
          echo ' <link rel="stylesheet" href="./styles/search.css">';
