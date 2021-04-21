@@ -1,6 +1,6 @@
 <?php 
 # routes
-$action_page = 'dashboard';//return to error.php
+$action_page = 'dashboard.phpu';//return to error.php
 $submit_text = 'Error';
 $options_link = 'Error';
 $options_text ='Error';

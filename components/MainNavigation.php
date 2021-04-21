@@ -6,10 +6,10 @@
                 <a class="w3-bar-item w3-button  w3-center w3-mobile" href="./">
                     <img class="w3-image nav-logo" src="./assets/logo/FullLockup_forWhiteBG.png"
                         alt="FoodEx Logo Home icon"></a>
-                <div class=" w3-bar-item nav-group w3-stretch nav-link-group w3-content w3-quarter">
-                    <a class="nav-link  w3-bar-item w3-button w3-cell  w3-cell-bottom  w3-mobile" href="./">Home</a>
-                    <a class="nav-link  w3-bar-item w3-button w3-cell  w3-cell-bottom  w3-mobile" href="about">About Us</a>
-                    <a class="nav-link w3-bar-item w3-button w3-cell w3-cell-bottom w3-mobile" href="banks">Banks</a>
+                    <div class=" w3-bar-item nav-group w3-stretch nav-link-group w3-content w3-quarter">
+                        <a class="nav-link  w3-bar-item w3-button w3-cell  w3-cell-bottom  w3-mobile" href="./">Home</a>
+                    <a class="nav-link  w3-bar-item w3-button w3-cell  w3-cell-bottom  w3-mobile" href="about.php">About Us</a>
+                    <a class="nav-link w3-bar-item w3-button w3-cell w3-cell-bottom w3-mobile" href="banks.php">Banks</a>
                 </div>
                 <div class="w3-bar-item nav-btn-group w3-half">
                     <div class="w3-row ">
@@ -30,9 +30,9 @@ if ($loggedIn == true){
 } else{
     
 ?>
-                            <a href="login" class="w3-bar-item">
+                            <a href="login.php" class="w3-bar-item">
                                 <button class="w3-btn w3-round-xxlarge w3-mobile w3-light-blue w3-hover-red">Log In</button></a>
-                            <a href="signup" class="w3-bar-item">
+                            <a href="signup.php" class="w3-bar-item">
                                 <button class="w3-btn w3-round-xxlarge w3-mobile w3-light-blue w3-hover-red">Sign Up</button></a>
 <?php 
 }

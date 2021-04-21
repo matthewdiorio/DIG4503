@@ -6,10 +6,10 @@
                         <a class="link" href="./">Home</a>
                     </li>
                     <li class="w3-mobile w3-auto w3-bar-item">
-                        <a class="link" href="./about">About</a>
+                        <a class="link" href="about">About</a>
                     </li>
                     <li class="w3-mobile w3-auto w3-bar-item">
-                        <a class="link" href="./banks">Banks</a>
+                        <a class="link" href="banks">Banks</a>
                     </li>
                     <li class="w3-mobile w3-auto w3-bar-item">
                         <a class="link" href="#">Terms & Conditions</a>

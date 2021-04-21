@@ -21,6 +21,7 @@
      case  $baseURI.'dashboard.php':
          echo ' <link rel="stylesheet" href="./styles/dashboard.css">';
          echo '<title>Dashboard</title>';
+         //this implementation is highly insecure, must update to a conditional variable depended on a valid login from database
          $loggedIn = true;
          break;    
      case  $baseURI.'search.php':

@@ -1,6 +1,6 @@
 <?php 
 
-include 'FormBaseTop.php';
+include 'FormBase/FormBaseTop.php';
 include './private/signin.php';
 ?>
 
@@ -25,10 +25,6 @@ required>
     w3-margin w3-input  w3-round" 
 required>
 
-<<<<<<< HEAD:components/FormSignIn.php
 <input type="hidden" name="token" value="<?=$_SESSION['token']?>">
 
-<?php include 'FormBaseBottom.php'; ?>
-=======
 <?php include 'FormBase/FormBaseBottom.php'; ?>
->>>>>>> working:components/Form/FormSignIn.php

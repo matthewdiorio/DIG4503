@@ -2,7 +2,7 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-include 'components/Head.php'; ?>
+include './components/Head.php'; ?>
 <?php include './components/MainNavigation.php'; 
       include './private/signup.php';
 

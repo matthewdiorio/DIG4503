@@ -1,9 +1,7 @@
-<?php include 'components/Head.php'; ?>
-
-<?php include './components/MainNavigation.php'; ?>
-
-
-
+<?php 
+include "./components/Head.php"; 
+include "./components/MainNavigation.php"; 
+?>
     <main class="dashboard">
         <section class="w3-auto about">
             <h2>About FoodEx</h2>
