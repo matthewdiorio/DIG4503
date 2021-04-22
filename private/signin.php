@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_SESSION['token']) && $_SESSI
                     $_SESSION['url_address'] = $data->url_address;
                     echo $_SESSION['url_address'];
                     echo $data->url_address;
-                    header("Location: index.php");
+                    header("Location: dashboard.php");
                     die;
             }
         }

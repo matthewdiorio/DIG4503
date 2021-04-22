@@ -56,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST" && isset($_SESSION['token']) && $_SESSI
         $stm = $connection->prepare($query);
         $stm->execute($arr);
         $_SESSION['url_address'] = $url_address;
-        header("Location: index.php");
+        header("Location: dashboard.php");
         die;
     }
 
