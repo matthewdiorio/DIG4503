@@ -1,6 +1,6 @@
 <?php 
 # routes
-$action_page = 'dashboard.phpu';//return to error.php
+$action_page = '';//return to error.php
 $submit_text = 'Error';
 $options_link = 'Error';
 $options_text ='Error';
@@ -29,3 +29,4 @@ switch($pageName){
      action="<?php echo $action_page ?>" method="POST">
       
     <div class="form_input w3-auto  w3-section w3-padding">
+    

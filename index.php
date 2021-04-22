@@ -9,7 +9,7 @@ include './components/MainNavigation.php';
 
     <section class="intro">
         <div class="w3-center">
-            <div class="w3-container w3-display-middle w3-mobile">
+            <div class="w3-container w3-display-middle w3-mobile" style="margin-top:100px">
                 <div class="w3-round-large w3-light-blue w3-padding">
                     <div class="w3-light-blue w3-panel w3-bottombar w3-leftbar w3-rightbar w3-topbar w3-border-white w3-round-large w3-margin-right w3-margin-left">
                         <div class="w3-padding">

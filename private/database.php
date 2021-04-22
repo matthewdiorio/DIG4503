@@ -2,8 +2,8 @@
 define('DB_NAME', 'foodEx');
 define('DB_USER', 'root');
 // on yjang's system
-define('DB_PASS', '');
-//define('DB_PASS', 'root');
+//define('DB_PASS', '');
+define('DB_PASS', 'root');
 define('DB_HOST', 'localhost');
 
 

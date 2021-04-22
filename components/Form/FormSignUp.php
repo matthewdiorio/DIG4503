@@ -1,5 +1,8 @@
 <?php include 'FormBase/FormBaseTop.php'; ?>
-
+<?php if(isset($Error) && !$Error ==""){
+echo $Error;
+}
+?>
 <input placeholder="First Name"  type="text" name="fname" id="input_fname"
     class=" w3-mobile form_input_item
      w3-row w3-margin w3-input w3-round"

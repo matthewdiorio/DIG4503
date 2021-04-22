@@ -70,6 +70,6 @@ echo $Error;
 
  */
 
-echo $Error;
+
 
 $_SESSION['token'] = get_random_string(60);
